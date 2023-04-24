@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\back-jojo-jotaro-kujo.jpg" />
+    <None Remove="Images\jojos-jotaro-kujo.jpg" />
+    <None Remove="Images\jojos-star-platinum.jpg" />
+    <None Remove="Images\jojos-stardust-crusaders-vol-1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\back-jojo-jotaro-kujo.jpg" />
+    <Resource Include="Images\jojos-jotaro-kujo.jpg" />
+    <Resource Include="Images\jojos-star-platinum.jpg" />
+    <Resource Include="Images\jojos-stardust-crusaders-vol-1.jpg" />
+  </ItemGroup>
+
+</Project>
